@@ -20,11 +20,6 @@
         	<li><%= link_to 'Children', children_path %></li>
 					<li><%= link_to 'Chores', chores_path %></li>
 					<li><%= link_to 'Tasks', tasks_path %></li>
-					<% if logged_in? %>
-					<li><%= link_to 'Logout', logout_path %></li>
-					<% else %>
-					<li><%= link_to 'Login', login_path %></li>
-					<% end %>
 				</ul>
       </div> <!-- end of nav div -->
 			<div style="clear:both;"></div>
